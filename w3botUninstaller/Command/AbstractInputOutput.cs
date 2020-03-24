@@ -78,6 +78,9 @@ namespace w3botUninstaller.Command
 
                 FilePath = path;
 
+                if (fileName == "w3botUninstaller.exe")
+                    return;
+
                 File.Delete(path);
             }
         }

@@ -9,7 +9,7 @@ namespace w3botUninstaller.Utils
 {
     public static class RegistryUtils
     {
-        public const string REGISTRY_SUBKEY = "w3bot";
+        public const string REGISTRY_SUBKEY = @"Software\w3bot";
         public const string REGISTRY_VALUE_TYPE = "Path";
 
         public static bool IsRegistrySubKeyAvailable()

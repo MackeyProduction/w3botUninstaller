@@ -28,12 +28,6 @@ namespace w3botUninstaller.Command
         {
             var destinationDirectory = new DirectoryInfo(destinationPath);
 
-            //if (!destinationDirectory.Exists)
-            //{
-            //    IsFinished = true;
-            //    return;
-            //}
-
             Task.Run(() =>
             {
                 if (destinationDirectory.GetFiles().Length > 0)
